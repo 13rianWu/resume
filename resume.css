@@ -1,0 +1,16 @@
+.head{
+    margin: auto;
+    border-style: solid;
+    overflow: hidden;
+}
+.photo{
+    float: left;
+}
+.photo img{
+    width: 300px;
+    height: 400px;
+    margin: 4px;
+}
+.text{
+    float: right;
+}

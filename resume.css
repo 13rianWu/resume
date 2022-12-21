@@ -1,16 +1,34 @@
+.main{
+    margin: 40px 120px;
+    overflow: hidden;
+}
 .head{
+    background-color: antiquewhite;
     margin: auto;
-    border-style: solid;
     overflow: hidden;
 }
 .photo{
     float: left;
 }
 .photo img{
-    width: 300px;
     height: 400px;
-    margin: 4px;
+    width: 300px;
+    margin: 10px;
 }
-.text{
+.link{
     float: right;
+}
+.linkbtn{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: darkgray;
+    border-radius: 8px;
+    font-family: Microsoft Sans Serif;
+    font-size: 22px;
+    color: white;
+}
+.linkbtn:hover{
+    background-color: black;
+    cursor: pointer;
 }
